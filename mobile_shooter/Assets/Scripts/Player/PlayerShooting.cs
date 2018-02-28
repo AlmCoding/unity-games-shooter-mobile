@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
 
@@ -36,8 +36,8 @@ public class PlayerShooting : MonoBehaviour
         timer += Time.deltaTime;
 
         // Store the input axes for rotation.
-        float hInputTurn = CrossPlatformInputManager.GetAxis("HorizontalRotation");
-        float vInputTurn = CrossPlatformInputManager.GetAxis("VerticalRotation");
+        float hInputTurn = CrossPlatformInputManager.GetAxis("HorizontalRotation2");
+        float vInputTurn = CrossPlatformInputManager.GetAxis("VerticalRotation2");
         // Set the rotation vector based on the axis input.
         rotation.Set(hInputTurn, 0f, vInputTurn);
         rotation.y = 0f;

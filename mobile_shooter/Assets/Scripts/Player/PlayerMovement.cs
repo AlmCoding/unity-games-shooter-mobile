@@ -48,8 +48,8 @@ public class PlayerMovement : MonoBehaviour
     void Move()
     {
         // Store the input axes for movement.
-        float hInputMove = CrossPlatformInputManager.GetAxis("HorizontalMovement");
-        float vInputMove = CrossPlatformInputManager.GetAxis("VerticalMovement");
+        float hInputMove = CrossPlatformInputManager.GetAxis("HorizontalMovement2");
+        float vInputMove = CrossPlatformInputManager.GetAxis("VerticalMovement2");
 
         // Set the movement vector based on the axis input.
         movement.Set(hInputMove, 0f, vInputMove);
@@ -65,8 +65,8 @@ public class PlayerMovement : MonoBehaviour
     void Turning()
     {
         // Store the input axes for rotation.
-        float hInputTurn = CrossPlatformInputManager.GetAxis("HorizontalRotation");
-        float vInputTurn = CrossPlatformInputManager.GetAxis("VerticalRotation");
+        float hInputTurn = CrossPlatformInputManager.GetAxis("HorizontalRotation2");
+        float vInputTurn = CrossPlatformInputManager.GetAxis("VerticalRotation2");
 
         // Set the rotation vector based on the axis input.
         rotation.Set(hInputTurn, 0f, vInputTurn);

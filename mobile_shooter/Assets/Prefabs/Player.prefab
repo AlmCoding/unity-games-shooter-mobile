@@ -382,8 +382,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
-  shootingAdvisorAngle: 25
-  bulletRange: 100
+  shootingAdvisorAngle: 16
+  bulletRange: 16
 --- !u!114 &114902026561964446
 MonoBehaviour:
   m_ObjectHideFlags: 1
